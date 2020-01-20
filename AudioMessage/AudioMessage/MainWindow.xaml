@@ -1,0 +1,18 @@
+﻿<Window x:Class="AudioMessage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AudioMessage"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="600">
+    <Grid>
+        <Button x:Name="sendBtn" Content="Позвонить" Margin="0,150,0,0"  Width="150" Height="50" Click="SendBtnClick"/>
+        <Label HorizontalAlignment="Left" Height="25" Margin="132,50,0,0"  Content="Connection" VerticalAlignment="Top" Width="150"/>
+        <TextBox Name="connectionTB" HorizontalAlignment="Left" Height="25" Margin="312,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <Label HorizontalAlignment="Left" Height="25" Margin="132,90,0,0"  Content="Port" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="portTB" HorizontalAlignment="Left" Height="25" Margin="312,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <Label HorizontalAlignment="Left" Height="25" Margin="132,131,0,0" Content="Ip" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="ipTB" HorizontalAlignment="Left" Height="25" Margin="312,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+    </Grid>
+</Window>
